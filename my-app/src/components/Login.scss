@@ -1,0 +1,37 @@
+.LoginBox {
+    width: 600px;
+    background-color: orange;
+
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .userName, .password {
+            height: 40px; 
+        }
+
+        .formField {
+            width: 30%;
+            margin-bottom: 24px;
+        }
+
+        .loginBtn {
+            float: right;
+            height: 40px;
+            width: 50%;
+            font-weight: bold;
+            color: #fff;
+            background-color: black;
+        }
+
+        .loginError {
+            width: 35%;
+            font-size: 12px;
+            text-align: left;
+            border-top: 3px solid #d8c9c9;
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+    }
+}

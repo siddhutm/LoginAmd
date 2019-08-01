@@ -1,0 +1,95 @@
+.SearchResultTable {
+    .searchResLbl {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .searchKey {
+        text-transform: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+
+    .headerColumn {
+        display: flex;
+    }
+
+    .table {
+        margin-bottom: 40px;
+        height: 200px;
+    }
+
+    .columnItem {
+        background-color: #a29f9f;
+        height: 30px;
+        border-right: 1px solid #fff;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .userName {
+        width: 40%;
+    }
+
+    .userNameVal {
+        text-align: left;
+    }
+
+    .name {
+        width: 30%;
+    }
+
+    .status {
+        width: 30%;
+    }
+
+    .rowItem {
+        display: flex;
+        height: 30px;
+
+        .columnItem {
+            background-color: #fff;
+            height: 30px;
+            border-left: 1px solid gray;
+            border-top: 1px solid gray;
+        }
+        &:nth-child(even) {
+            .columnItem {
+                background-color: #ededed;
+            }
+        }
+
+        &:last-child {
+            .columnItem {
+                border-bottom: 1px solid gray;
+            }
+ 
+        }
+    }
+
+    .warning {
+        .columnItem {
+            background-color: #ff000038;
+        }
+    }
+
+    .paginator {
+        float: right;
+        margin-bottom: 24px;
+    }
+
+    .pageLink {
+        margin: 2px;
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .currentPage {
+        color:blue;
+        text-decoration: underline;
+    }
+}
