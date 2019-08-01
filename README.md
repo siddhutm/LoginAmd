@@ -16,3 +16,5 @@ npm start    ==> start local server
 ```
 npm test     ==> to run test cases
 ```
+
+![](AmdocsLogin.gif)
